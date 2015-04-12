@@ -14,7 +14,7 @@ energy_use_subset <- energy_use[energy_use$Date == as.Date("2007-02-01") |
                                 energy_use$Date == as.Date("2007-02-02")  ,]
 
 
-hist(energy_use_subset$Global_active_power, main='Global Active Power', col='orange',
+hist(energy_use_subset$Global_active_power, main='Global Active Power', col='red',
      xlab='Global Active Power (kilowatts)')
 
 #  Now copy the histogram to a png file
